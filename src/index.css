@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red-gr{
+  background-image: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);
+
+}
+
+.background-container {
+    position: fixed;   /* To position the overlay above the image */
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    /* Set a height for the container (full viewport height) */
+  }
+
+  .background-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;     /* Ensures the image covers the container without distortion */
+  }
+  
+.nav2{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(241, 239, 239);
+    display: none;
+    
+}
+@media screen and (max-width:700px) {
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: block;
+    }
+}
