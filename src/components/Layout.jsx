@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Nav/Navbar'
 import Background from './Background'
 import MainPage from './MainPage'
-import SidePencil from './sidePencil'
+import SidePencil from './SidePencil'
 
 function Layout() {
   return (
